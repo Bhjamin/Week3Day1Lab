@@ -1,0 +1,51 @@
+img {
+    border: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 3px;
+    
+   
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://www.zeldadungeon.net/wp-content/uploads/2018/10/Twilight-Princess-Hyrule-Castle.jpg);
+    background-repeat: no-repeat;
+    background-position: top; 
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 150px;
+    background-color: rgba(218, 165, 32, 0.753);
+    border: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    color: rgba(179, 33, 33, 0.959);
+    
+}
+
+span {
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid;
+    background-color: rgba(16, 138, 112, 0.753);
+    border-color: rgb(179, 33, 33);
+    line-height: 40px;
+}
+
+div > img {
+    margin-right: 850px;
+}
+
+p > img {
+    margin-left: 850px;
+    margin-top: -450px;
+}
+
